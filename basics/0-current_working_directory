@@ -1,6 +1,2 @@
 #!/user/bin/bash
-
-cwd(){
-	pwd}
-
-
+pwd
