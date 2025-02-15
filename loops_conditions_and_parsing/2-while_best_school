@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#this will print best school 10 times
+while [$n -le 10]
+do 
+ehco "Best School"
+((n++))
+done
