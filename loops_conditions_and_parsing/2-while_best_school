@@ -3,6 +3,6 @@
 n=1
 while [ $n -le 10 ]
 do 
-ehco "Best School"
+echo "Best School"
 ((n++))
 done
