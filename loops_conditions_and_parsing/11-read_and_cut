@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #read from etc/passwd
 
-while IFS=':' read -r username _ uid _ _ homeir ; 
+while IFS=':' read -r username _ uid _ _ homedir ; 
 do 
 echo "$username:$uid:$homedir"
 done < /etc/passwd
