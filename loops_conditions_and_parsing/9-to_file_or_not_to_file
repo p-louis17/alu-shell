@@ -1,17 +1,20 @@
 #!/usr/bin/env bash
 #this will check if the file exists and if it is a regular file 
+filename="school"
 
-file_name="school"
-if [ -e $file_name ]; then
+if [ -e $filename ]; then
     echo "school file exists"
-    if [ ! -s $file_name ]; then 
+    if [ ! -s $filename ]; then 
         echo "school file is empty"
     else
         echo "school file is not empty"
     fi
-    if [ -f $file_name ]; then
+    if [ -f $filename ]; then
         echo "shool is a regular file"
     fi  
 else   
     echo "school does not exist"
 fi
+
+
+
