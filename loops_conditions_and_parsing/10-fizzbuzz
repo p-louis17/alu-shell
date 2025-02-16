@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #this will print numbers to 100 while adding FizzBuzz, Fizz, or Buzz 
+n=1
 
 while ((n <= 100))
 do
@@ -12,5 +13,5 @@ do
     else
         echo "$n"
     fi
-((n++))
+ ((n++))
 done
